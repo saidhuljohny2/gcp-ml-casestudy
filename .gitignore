@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+*.joblib
+artifacts/model/
+data/processed/
+.python-version
