@@ -30,9 +30,9 @@ CSV --> pandas EDA --> sklearn Pipeline --> artifacts/model/model.joblib
 | EDA notebook | Now | [notebooks/01_eda_and_data_quality.ipynb](notebooks/01_eda_and_data_quality.ipynb) |
 | Train and evaluate | Now | [notebooks/02_train_and_evaluate.ipynb](notebooks/02_train_and_evaluate.ipynb) |
 | Local scoring tests | Now | [notebooks/03_local_prediction_tests.ipynb](notebooks/03_local_prediction_tests.ipynb) |
-| GCP project setup | Later | [docs/03-gcp-setup.md](docs/03-gcp-setup.md) |
+| GCP project setup | Deployed | [docs/03-gcp-setup.md](docs/03-gcp-setup.md) |
 | Vertex training | Later | [docs/04-vertex-training.md](docs/04-vertex-training.md) |
-| Deploy and test | Later | [docs/05-deploy-and-test.md](docs/05-deploy-and-test.md) |
+| Deploy and test | Live | [docs/05-deploy-and-test.md](docs/05-deploy-and-test.md) |
 | Monitoring | Later | [docs/06-monitoring-and-responsible-ml.md](docs/06-monitoring-and-responsible-ml.md) |
 | Cleanup | Later | [docs/07-cleanup.md](docs/07-cleanup.md) |
 | Instructor notes | Teaching | [docs/00-instructor-guide.md](docs/00-instructor-guide.md) |
@@ -59,8 +59,16 @@ IBM **Telco Customer Churn** (fictional). Attribution and download notes are in 
 ## What we are not doing yet
 
 - Vertex AI Pipelines
-- Cloud Build / GitHub Actions
+- Automated Cloud Build triggers / GitHub Actions
 - Terraform
 - Automated retraining
 
 Those belong in a follow-on MLOps module after students can explain the manual path.
+
+## Current live deployment
+
+The custom prediction container is deployed in project
+`gcp-evening-batch-501811`, region `us-central1`. See
+[docs/05-deploy-and-test.md](docs/05-deploy-and-test.md) for the resource IDs
+and tested request, and [docs/07-cleanup.md](docs/07-cleanup.md) to stop endpoint
+costs.

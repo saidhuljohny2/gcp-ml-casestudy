@@ -1,5 +1,7 @@
 .venv/
 venv/
+.tools/
+.gcloud/
 __pycache__/
 *.py[cod]
 .pytest_cache/
