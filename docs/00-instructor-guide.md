@@ -22,6 +22,8 @@ Students who know basic Python and pandas. They do **not** need prior GCP experi
 
 If you only have a 3-hour slot, stop after local scoring.
 
+For the business story, every CSV column, and a cell-by-cell script of the three notebooks, use [08-data-and-notebooks-teaching-guide.md](08-data-and-notebooks-teaching-guide.md).
+
 ## Teaching style
 
 - Students type commands and inspect outputs. Do not skip to a finished notebook.

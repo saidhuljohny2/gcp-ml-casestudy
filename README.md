@@ -36,6 +36,7 @@ CSV --> pandas EDA --> sklearn Pipeline --> artifacts/model/model.joblib
 | Monitoring | Later | [docs/06-monitoring-and-responsible-ml.md](docs/06-monitoring-and-responsible-ml.md) |
 | Cleanup | Later | [docs/07-cleanup.md](docs/07-cleanup.md) |
 | Instructor notes | Teaching | [docs/00-instructor-guide.md](docs/00-instructor-guide.md) |
+| Data + notebooks (column-level) | Teaching | [docs/08-data-and-notebooks-teaching-guide.md](docs/08-data-and-notebooks-teaching-guide.md) |
 
 ## Quick start (local)
 
